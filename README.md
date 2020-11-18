@@ -3,29 +3,33 @@ Bobcat In A Box Thanksgiving Data Challenge (for more head to bobcatinabox.com/2
 <b>Data Description</b>
 
 tbl_test_boxes.csv (this is the file you need to submit, each row is one box)
+
 	unboxer_id (unique to each unboxer, use to lookup data accross tables)
 	vendor_id (unique to each vendor, use to lookup data accross tables)
-	target_bobcat (you need to figure this one out)
-	tbl_train_boxes.csv (these boxes are your training data, each row is one box)
+	target_bobcat (you need to figure this one out, decimal value between 0 and 1)
 
-unboxer_id
-  vendor_id 
-  target_bobcat (we are trying to predict the 1s)
-  tbl_unboxer_attributes.csv (these features describe each unboxer)
+tbl_train_boxes.csv (these boxes are your training data, each row is one box)
 
-unboxer_id 
-  feature_skimask 1-60 (discrete variables)
-  feature_beartrap 1-5 (discrete variables that are labels for attributes such as geography and gift/prank status)
-  tbl_unboxer_keywords.csv (these are keywords selected by each unboxer)
+	  unboxer_id
+	  vendor_id 
+	  target_bobcat (we are trying to predict the 1s)
+	  
+tbl_unboxer_attributes.csv (these features describe each unboxer)
 
-unboxer_id
-  keyword_id (unique to each keyword, use to lookup data accross tables)
-  enabled (1 if keyword is selected by unboxer, -1 if keyword isn't selected by unboxer)
-  tbl_vendor_keywords.csv (these are keywords used by each vendor)
+	unboxer_id 
+	feature_skimask 1-60 (discrete variables)
+	feature_beartrap 1-5 (discrete variables that are labels for attributes such as geography and gift/prank status)
 
-vendor_id
-  keyword_id
-  enabled (all 1s)
+tbl_unboxer_keywords.csv (these are keywords selected by each unboxer)
+	unboxer_id
+	keyword_id (unique to each keyword, use to lookup data accross tables)
+	enabled (1 if keyword is selected by unboxer, -1 if keyword isn't selected by unboxer)
+
+tbl_vendor_keywords.csv (these are keywords used by each vendor)
+
+	vendor_id
+	keyword_id
+	enabled (all 1s)
   
 <b>Evaluation</b>
 
