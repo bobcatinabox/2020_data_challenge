@@ -31,7 +31,7 @@ vendor_id
 
 To make a submission please send tbl_test_boxes.csv with your best estimates of target_bobcat, the code you used to generate the result and some documentation of what you did to data@bobcatinabox.com
 
-target_bobcat should be a decimal value between 0 and 1 that reflects your confidence in whether or not a box contains a bobcat (0 means you don't think there is any chance of a bobcat, 1 means that you are certain that a box contains a bobcat).
+target_bobcat should be a decimal value between 0 and 1 that reflects your model's confidence in whether or not a box contains a bobcat (0 means you don't think there is any chance of a bobcat, 1 means that you are certain that a box contains a bobcat).
 
 To evalate your submission, we will rank the boxes using your target_bobcat and take a look at how many bobcats there actually were in the predicted top 5% of tbl_test_boxes. The winning submission will be the one that has the largest number of actual bobcats in the 5% of boxes with the highest target_bobcat values in tbl_test_boxes.
 
