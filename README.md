@@ -46,5 +46,5 @@ Please do not submit a large number of high and identical target_bobcat values a
 
 Hints: As we are only looking at the top 5%, false positives are a larger problem than false negatives. Bobcats are inherently unpredictable creatures. If in cross validation your model is correctly predicting over 45% of the target_bobcat vales then it has overfitted to the training data and you are doing something wrong.
 
-Click below to join our Discord channel and discuss the contest!
+Join our Discord channel and discuss the contest >>
 https://bobcatinabox.com/discord-channel
