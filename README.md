@@ -29,7 +29,7 @@ vendor_id
   
 <b>Evaluation</b>
 
-To make a submission please send tbl_test_boxes.csv with your best estimates of target_bobcat, the code you used to generate the result and some documentation of what you did to data@bobcatinabox.com
+To make a submission please send tbl_test_boxes.csv filled in with your best estimates of target_bobcat, the code you used to generate the result and some documentation of what you did to data@bobcatinabox.com
 
 target_bobcat should be a decimal value between 0 and 1 that reflects your model's confidence in whether or not a box contains a bobcat (0 means you don't think there is any chance of a bobcat, 1 means that you are certain that a box contains a bobcat).
 
