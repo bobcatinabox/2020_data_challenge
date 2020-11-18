@@ -3,10 +3,10 @@ Bobcat In A Box Thanksgiving Data Challenge (for more head to bobcatinabox.com/2
 <b>Data Description</b>
 
 tbl_test_boxes.csv (this is the file you need to submit, each row is one box)
-  unboxer_id (unique to each unboxer, use to lookup data accross tables)
-  vendor_id (unique to each vendor, use to lookup data accross tables)
-  target_bobcat (you need to figure this one out)
-  tbl_train_boxes.csv (these boxes are your training data, each row is one box)
+    unboxer_id (unique to each unboxer, use to lookup data accross tables)
+    vendor_id (unique to each vendor, use to lookup data accross tables)
+    target_bobcat (you need to figure this one out)
+    tbl_train_boxes.csv (these boxes are your training data, each row is one box)
 
 unboxer_id
   vendor_id 
