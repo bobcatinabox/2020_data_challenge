@@ -1,4 +1,4 @@
-Bobcat In A Box Thanksgiving Data Challenge (for more head to bobcatinabox.com/2020-data-contest)
+Bobcat In A Box Thanksgiving Data Challenge (for more head to bobcatinabox.com/data-contest)
 
 <b>Data Description</b>
 
