@@ -21,6 +21,7 @@ tbl_unboxer_attributes.csv (these features describe each unboxer)
 	feature_beartrap 1-5 (discrete variables that are labels for attributes such as geography and gift/prank status)
 
 tbl_unboxer_keywords.csv (these are keywords selected by each unboxer)
+
 	unboxer_id
 	keyword_id (unique to each keyword, use to lookup data accross tables)
 	enabled (1 if keyword is selected by unboxer, -1 if keyword isn't selected by unboxer)
