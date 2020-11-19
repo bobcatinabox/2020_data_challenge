@@ -32,19 +32,19 @@ tbl_vendor_keywords.csv (these are keywords used by each vendor)
 	keyword_id
 	enabled (all 1s)
   
-<b>Evaluation</b>
+<p><b>Evaluation</b></p>
 
-To make a submission please send tbl_test_boxes.csv filled in with your best estimates of target_bobcat, the code you used to generate the result and some documentation of what you did to data@bobcatinabox.com
+To make a submission please send tbl_test_boxes.csv with your best estimates of target_bobcat, the code you used to generate the result and some documentation of what you did to data@bobcatinabox.com<br><br>
 
-target_bobcat should be a decimal value between 0 and 1 that reflects your model's confidence in whether or not a box contains a bobcat (0 means you don't think there is any chance of a bobcat, 1 means that you are certain that a box contains a bobcat).
+The column target_bobcat should be a decimal value between 0 and 1 that reflects your model's confidence in whether or not a box contains a bobcat (0 means you don't think there is any chance of a bobcat, 1 means that you are certain that a box contains a bobcat).<br><br>
 
-To evalate your submission, we will rank the boxes using your target_bobcat and take a look at how many bobcats there actually were in the predicted top 5% of tbl_test_boxes. The winning submission will be the one that has the largest number of actual bobcats in the 5% of boxes with the highest target_bobcat values in tbl_test_boxes.
+To evaluate your submission, we'll rank the boxes using your target_bobcat and take a look at how many bobcats there actually were in the predicted top 5% of tbl_test_boxes. The winning submission will be the one that has the largest number of actual bobcats in the 5% of boxes with the highest target_bobcat values in tbl_test_boxes.<br><br> 
 
-To count as a qualifying submission, your predicted top 5% of tbl_test_boxes must contain at least 25% actual bobcats. Accross the whole dataset 12.5% of boxes contain bobcats.
+To count as a qualifying submission, your predicted top 5% of tbl_test_boxes must contain at least 15% actual bobcats. Across the whole dataset 7.5% of boxes contain bobcats.
 
-Please do not submit a large number of high and identical target_bobcat values as this may gum up the works when it comes time to evaluate the top 5%.
+Please do not submit a large number of high and identical target_bobcat values as this may gum up the works when it comes time to evaluate the top 5%.<br><br> 
 
-Hints: As we are only looking at the top 5%, false positives are a larger problem than false negatives. Bobcats are inherently unpredictable creatures. If in cross validation your model is correctly predicting over 45% of the target_bobcat vales then it has overfitted to the training data and you are doing something wrong.
+<i>Hints: As we are only looking at the top 5%, false positives are a larger problem than false negatives. Bobcats are inherently unpredictable creatures. If in cross validation your model is correctly predicting over 45% of the target_bobcat vales then it has overfitted to the training data and you are doing something wrong.</i>
 
 Join our Discord channel and discuss the contest >>
 https://bobcatinabox.com/discord-channel
